@@ -5,3 +5,59 @@
     box-sizing: border-box;
 }
 
+/* typo */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* common */
+a{
+    text-decoration: none;
+    color: black;
+    margin: 0 20px;
+    text-align: left;
+}
+
+.clearfix::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+header{
+    margin: 20px;
+}
+
+ul,
+li
+{
+    vertical-align: middle;
+    display: inline-block;
+}
+
+
+.btn{
+    padding: 5px 15px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+.container_left{
+    float: left;
+}
+.container_right{
+    float: right;
+}
+
+.a_right{
+    text-align: right;
+}
+
+nav img{
+    vertical-align: middle;
+}
+
+.a_button{
+    color: white;
+}
