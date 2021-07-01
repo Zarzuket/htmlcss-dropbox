@@ -28,7 +28,7 @@ header{
     margin: 20px;
 }
 
-ul,
+header ul,
 li
 {
     vertical-align: middle;
@@ -122,4 +122,58 @@ h1{
 
 .label{
     margin-right: 10px;
+}
+
+.col_left_main{
+    width: 33%;
+    border: 1px solid black;
+    float: left;
+}
+
+.col_middle_main{
+    width: 33%;
+    border: 1px solid green;
+    float: left;
+}
+
+.col_right_main{
+    width: 33%;
+    border: 1px solid yellow;
+    float: left;
+}
+
+.title_col > i{
+    text-align: center;
+
+}
+
+.btn_col_main{
+    padding: 10px 30px;
+    background-color: #0061ff;
+    color: white;
+    border: none;
+    margin: 30px 20px;
+    }
+
+.buyit{
+    text-decoration: underline;
+    color: blue;
+    margin-bottom: 20px;
+}
+
+.h4_col_main{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.fa-check{
+    color: blue;
+    display: inline;
+}
+.ul_columns{
+    list-style-type: none;
+}
+.li_columns{
+    margin-bottom: 10px;
+
 }
