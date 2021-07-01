@@ -37,7 +37,7 @@ li
 
 
 .btn{
-    padding: 5px 15px;
+    padding: 10px 10px;
     background-color: blue;
     color: white;
     border: none;
@@ -60,4 +60,45 @@ nav img{
 
 .a_button{
     color: white;
+}
+
+
+/* main */
+
+.container{
+    background-color: aquamarine;
+
+}
+.container_80{
+
+    margin: auto;
+    width: 80%;
+}
+h1{
+    font-size: 90px;
+    margin: 40px 0px;
+}
+
+.col_left{
+    width: 40%;
+    float: left;
+}
+
+.col_left p{
+    font-size: 23px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.col_right{
+    width: 60%;
+    float:right;
+}
+
+.fa-arrow-down{
+    font-size: 50px;
+    margin-top: 50px;
+}
+.jumbo{
+
 }
