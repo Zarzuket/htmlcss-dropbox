@@ -24,6 +24,8 @@ a{
 	clear: both;
 }
 
+/* header */
+
 header{
     margin: 20px;
 }
@@ -35,6 +37,9 @@ li
     display: inline-block;
 }
 
+.img_logo{
+    vertical-align: middle;
+}
 
 .btn{
     padding: 10px 10px;
@@ -143,7 +148,7 @@ h1{
 }
 
 .title_col > i{
-    text-align: center;
+    /* text-align: center; */
 
 }
 
@@ -152,7 +157,7 @@ h1{
     background-color: #0061ff;
     color: white;
     border: none;
-    margin: 30px 20px;
+    margin: 50px 50px;
     }
 
 .buyit{
@@ -175,5 +180,9 @@ h1{
 }
 .li_columns{
     margin-bottom: 10px;
-
 }
+
+.card{
+    padding: 30px;
+}
+
