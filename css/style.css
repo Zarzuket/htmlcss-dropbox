@@ -131,7 +131,7 @@ h1{
 
 .col_left_main{
     width: calc(100% / 3 - 40px);
-    border: 1px solid grey;
+    border: 1px ridge grey;
     float: left;
     margin-top: 40px;
     min-height: 1000px;
@@ -139,7 +139,7 @@ h1{
 
 .col_middle_main{
     width: calc(100% / 3 - 40px);
-    border: 1px solid grey;
+    border: 1px ridge grey;
     float: left;
     margin-left: 60px;
     margin-right: 60px;
@@ -149,14 +149,15 @@ h1{
 
 .col_right_main{
     width: calc(100% / 3 - 40px);
-    border: 1px solid grey;
+    border: 1px ridge grey;
     float: left;
     margin-top: 40px;
     min-height: 1000px;
 }
 
-.title_col > i{
-    /* text-align: center; */
+.title_col {
+    text-align: center;
+    border-bottom: 1px ridge grey;
 
 }
 
@@ -197,6 +198,22 @@ h1{
 }
 
 .col_middle_60{
-    border: 1px solid green;
+    border: 1px ridge grey;
+    float: left;
+    margin-top: 100px;
+    width: 100%;
 }
 
+.col_middle_left{
+    float: left;
+    width: 80%;
+}
+.col_middle_right{
+    float: right;
+    width: 20%;
+}
+
+.h4_col_middle{
+    font-size: 30px;
+
+}
