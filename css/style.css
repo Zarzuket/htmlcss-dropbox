@@ -361,6 +361,7 @@ footer{
 .columns_5{
     float: left;
     width: 16%;
+    min-width: 100px;
 }
 
 .columns_5 h4{
@@ -374,5 +375,22 @@ footer{
     display: block;
     color: white;
     margin-bottom: 10px;
+    
 
+}
+
+.hr_footer_bot{
+    width: 10%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.fa-globe-americas,
+.fa-caret-up{
+    color: grey;    
+}
+
+#span_footer_bot{
+    color: grey;
 }
