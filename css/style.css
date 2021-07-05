@@ -302,8 +302,69 @@ h1{
     margin: 0px;
 }
 
+.big_raw{
+
+}
 
 
+.col_raw{
+    width: 30%;
+    float: left;
+    border: 1px solid yellow;
+}
+
+.col_middle_raw{
+    width: 40%;
+    float: left;
+    border: 1px solid green;
+}
+
+
+
+.raw{
+    width: 100%;
+    border: 1px solid red;
+    height: 100%;
+}
+
+.img_center{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background-image: cover;
+
+
+}
+/* .top_left_up_raw{
+    width: 50%;
+    height: 100%;
+    background-color: green;
+    float: left;
+
+} */
+
+.square{
+    width: 50%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: red;
+    float: left;
+    position: relative;
+}
+
+/* .bot_right_raw{
+    background: black;
+    width: 50%;
+    float: left;
+}
+
+.bot_left_raw{
+    background: green;
+    width: 50%;
+    float: left;
+} */
 
 
 .container_full{
