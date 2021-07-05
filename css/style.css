@@ -307,20 +307,67 @@ h1{
 }
 
 
-.col_raw{
+.col_30{
     width: 30%;
     float: left;
     border: 1px solid yellow;
 }
 
-.col_middle_raw{
+.col_40{
     width: 40%;
     float: left;
     border: 1px solid green;
 }
 
+.col_50{
+    float: left;
+    width: 50%;
+}
 
+.container_imgs{
+    position: relative;
+    background-color: green;
+    width: 100%;
+    height: 300px;
+}
 
+.brown{
+    background-color: #61082b;
+}
+
+.lightblue{
+    background-color: #0093ce;
+}
+
+.red{
+    background-color: #ff1c1c;
+}
+
+.red2{
+    background-color: #d5001f;
+
+}
+
+.lightgrey{
+    background-color: #b4d0e7;
+}
+
+.blue{
+    background-color: #0d2481;
+}
+
+.yellow{
+    background-color: #ffd830;
+}
+
+.container_imgs > img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 20px;
+}
 .raw{
     width: 100%;
     border: 1px solid red;
