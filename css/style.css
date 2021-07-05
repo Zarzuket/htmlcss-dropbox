@@ -353,3 +353,26 @@ display: block;
 .li_faq:last-child{
     border-bottom: 1px solid grey;
 }
+footer{
+    margin-top: 100px;
+    background-color: black;
+}
+
+.columns_5{
+    float: left;
+    width: 16%;
+}
+
+.columns_5 h4{
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.li_columns_5{
+    display: block;
+    color: white;
+    margin-bottom: 10px;
+
+}
