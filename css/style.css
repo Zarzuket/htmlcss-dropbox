@@ -220,12 +220,12 @@ h1{
 }
 
 .col_middle_low_60{
-    border: 1px solid black;
+    float: left;
 }
 
 .col_middle_low_left{
     float: left;
-    width: 50%;
+    width: 60%;
 }
 
 .partners{
@@ -234,7 +234,7 @@ h1{
 }
 .col_middle_low_right{
     float: right;
-    width: 50%;
+    width: 40%;
 }
 
 .col_middle_low_right > h4{
@@ -246,15 +246,46 @@ h1{
 .col_middle_low_right p{
     margin-left: 20px;
     margin-top: 20px;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .middle_low_btn{
     color: black;
-    padding: 10px;
+    padding: 5px;
     border: 1px solid black;
     font-weight: bold;
     margin-left: 20px;
     margin-top: 20px;
 
+}
+
+.middle_6{
+    float: left;
+}
+.h2_middle_6{
+    margin-top: 100px;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.middle_6_raw{
+    float: left;
+    border: 1px solid red;
+    height: 200px;
+    width: 33%;
+}
+
+.middle_6_raw h4{
+    font-size: 25px;
+    width: 80%;
+}
+
+.underline_in_middle_6{
+    text-decoration: underline;
+}
+
+.img_middle6{
+    top: 0;
+    left: 0;
+    width: 100%;
 }
