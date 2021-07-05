@@ -167,11 +167,11 @@ h1{
 }
 
 .btn_col_main{
-    padding: 10px;
+    padding: 10px 20px;
     background-color: #0061ff;
     color: white;
     border: none;
-    margin: 50px 50px;
+    /* margin: 50px 50px; */
     }
 
 .buyit{
@@ -364,6 +364,7 @@ footer{
     min-width: 100px;
 }
 
+
 .columns_5 h4{
     color: white;
     margin-bottom: 20px;
@@ -375,11 +376,15 @@ footer{
     display: block;
     color: white;
     margin-bottom: 10px;
-    
 
 }
 
-.hr_footer_bot{
+.li_columns_5 a{
+    color: white;
+    margin: 0;
+}
+
+.hr_bot_footer{
     width: 10%;
     margin-top: 50px;
     margin-bottom: 50px;
