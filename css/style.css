@@ -24,6 +24,11 @@ a{
 	clear: both;
 }
 
+h3{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
 /* header */
 
 header{
@@ -261,6 +266,7 @@ h1{
 
 .middle_6{
     float: left;
+    margin-bottom: 200px;
 }
 .h2_middle_6{
     margin-top: 100px;
@@ -270,6 +276,8 @@ h1{
 
 .middle_6_raw{
     float: left;
+    /* margin: 0 20px;
+    width: calc((100% / 3) - 120px); */
     width: 33%;
 }
 
@@ -286,4 +294,43 @@ h1{
     top: 0;
     left: 0;
     width: 100%;
+}
+
+#a_new{
+    color: #0061ff;
+    text-decoration: underline;
+    margin: 0px;
+}
+
+
+
+
+
+.container_full{
+    height: 500px;
+    background-color: #b4d0e7;
+    
+}
+
+.full_left{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.full_right{
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+
+.cont_full{
+    border: none;
+    padding: 10px 35px;
+}
+
+.full_left h4{
+    font-size: 40px;
+    color: #61082b;
+
 }
