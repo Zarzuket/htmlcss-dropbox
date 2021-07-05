@@ -270,8 +270,6 @@ h1{
 
 .middle_6_raw{
     float: left;
-    border: 1px solid red;
-    height: 200px;
     width: 33%;
 }
 
@@ -280,7 +278,7 @@ h1{
     width: 80%;
 }
 
-.underline_in_middle_6{
+#underline_in_middle_6{
     text-decoration: underline;
 }
 
