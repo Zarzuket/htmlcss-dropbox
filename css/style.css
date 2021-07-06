@@ -43,8 +43,13 @@ h3{
 
 /* header */
 
-header{
+header {
     margin: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
 }
 
 header ul,
@@ -91,6 +96,7 @@ nav img{
 
 .container_jumbo{
     background-color: #b4d0e7;
+    padding-top: 35px;
 
 }
 
@@ -142,7 +148,7 @@ h1{
 
 /* card columns */
 
-.col_left_main{
+.col_main_rl{
     width: calc(100% / 3 - 40px);
     border: 1px ridge lightgrey;
     float: left;
@@ -160,13 +166,7 @@ h1{
     min-height: 1000px;
 }
 
-.col_right_main{
-    width: calc(100% / 3 - 40px);
-    border: 1px ridge lightgrey;
-    float: left;
-    margin-top: 40px;
-    min-height: 1000px;
-}
+
 
 .title_col {
     text-align: center;
@@ -307,7 +307,8 @@ h1{
 
 .middle_6_raw{
     float: left;
-    width: 33%;
+    width: calc((100% / 3 ) - 20px);
+    margin: 0 10px;
 }
 
 .middle_6_raw h4{
@@ -481,13 +482,14 @@ h1{
 footer{
     margin-top: 100px;
     background-color: black;
+    padding: 40px;
 }
 
 .columns_5{
     float: left;
     width: 20%;
     min-width: 100px;
-    margin-top: 100px;
+
 }
 
 
